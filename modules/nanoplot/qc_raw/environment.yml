@@ -1,0 +1,6 @@
+
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - "bioconda::nanoplot=1.46.2"

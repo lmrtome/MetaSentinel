@@ -1,0 +1,6 @@
+
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - "bioconda::diamond=2.2.0"

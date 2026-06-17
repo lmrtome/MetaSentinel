@@ -1,0 +1,24 @@
+name: MetaSentinel
+
+channels: 
+- conda-forge
+- bioconda
+- defaults
+
+dependencies:
+ - nanoplot
+ - chopper
+ - multiqc
+ - kraken2
+ - r-base
+ - r-ggplot2
+ - r-readr
+ - r-dplyr
+ - r-svglite 
+ - flye
+ - ncbi-amrfinderplus
+ - minimap2
+ - diamond
+ - salmon
+ - nextflow
+ 
