@@ -210,7 +210,7 @@ Run MetaSentinel using Kraken2-based taxonomic classification:
 ```bash
 nextflow run main.nf \
     --input /path/to/reads \
-    --database /path/to/kraken2_database
+    --database_kraken2 /path/to/kraken2_database
 ```
 
 ### 4.3. Assembly-Based Characterization (Shotgun Metagenomics)
