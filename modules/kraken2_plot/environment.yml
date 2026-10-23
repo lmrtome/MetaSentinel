@@ -3,8 +3,8 @@ channels:
   - bioconda
 
 dependencies:
-  - conda-forge::r-base==4.3.0
-  - conda-forge::r-dplyr
-  - conda-forge::r-readr
-  - conda-forge::r-ggplot2
-  - conda-forge::r-svglite
+  - conda-forge::r-base=4.5
+  - conda-forge::r-dplyr=1.2.1
+  - conda-forge::r-readr=2.2.0
+  - conda-forge::r-ggplot2=2.4.0.3
+  - conda-forge::r-svglite=2.2.2
