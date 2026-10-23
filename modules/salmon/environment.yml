@@ -1,4 +1,5 @@
-name: salmon_env
+name: salmon
+
 channels:
   - conda-forge
   - bioconda

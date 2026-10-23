@@ -12,6 +12,6 @@ process TRIM_READS {
 
     script:
     """
-    gunzip -c ${long_reads} | chopper --headcrop ${params.headcrop} -q ${params.phredscore} -l ${params.minlen} --threads ${params.threads} | gzip > trimmed_${sample_id}.fastq.gz
+    gunzip -c ${long_reads} | chopper --trim-approach fixed-crop --headcrop ${params.headcrop} -q ${params.phredscore} -l ${params.minlen} --threads ${params.threads} | gzip > trimmed_${sample_id}.fastq.gz
     """
 }

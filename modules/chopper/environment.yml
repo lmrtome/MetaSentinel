@@ -1,6 +1,7 @@
+name: chopper
 
 channels:
   - conda-forge
   - bioconda
 dependencies:
-  - "bioconda::chopper=0.12.0"
+  - "bioconda::chopper=0.14.1"
