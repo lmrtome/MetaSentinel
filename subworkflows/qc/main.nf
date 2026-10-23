@@ -72,8 +72,8 @@ Run MultiQC
 
 emit: 
 
- qc_raw = QC_RAW_READS.out.qc_raw_reads
- trimmed = TRIM_READS.out.trimmed_reads
- qc_trimmed = QC_TRIMMED_READS.out.qc_trimmed_reads
+ qc_raw         = QC_RAW_READS.out.qc_raw_reads
+ trimmed        = TRIM_READS.out.trimmed_reads
+ qc_trimmed     = QC_TRIMMED_READS.out.qc_trimmed_reads
  multiqc_report = MULTIQC_REPORT.out.report
 }

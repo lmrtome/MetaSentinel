@@ -1,7 +1,8 @@
+name: r-base
+
 channels:
   - conda-forge
   - bioconda
-
 dependencies:
   - conda-forge::r-base=4.3
   - conda-forge::r-dplyr

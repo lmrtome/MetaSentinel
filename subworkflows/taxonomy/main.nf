@@ -33,6 +33,6 @@ Plot taxonomy results
 emit: 
 
 taxonomy_reports = TAXONOMY_ASSIGNMENT.out.taxonomy_assignment_reports
-taxonomy_plots = PLOT_TAXONOMY.out.taxonomy_plots
+taxonomy_plots   = PLOT_TAXONOMY.out.taxonomy_plots
 
 }

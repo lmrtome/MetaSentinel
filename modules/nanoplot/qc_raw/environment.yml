@@ -1,6 +1,7 @@
+name: nanoplot_raw
 
 channels:
   - conda-forge
   - bioconda
 dependencies:
-  - "bioconda::nanoplot=1.46.2"
+  - "bioconda::nanoplot=1.48.0"

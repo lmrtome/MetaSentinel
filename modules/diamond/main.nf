@@ -17,7 +17,6 @@ process CONTIG_ANNOTATION {
         --db      ${params.database_diamond} \\
         --out     ${sample_id}_matches.tsv \\
         --outfmt  6 qseqid qlen sseqid staxids pident length evalue \\
-        --threads ${task.cpus} \\ 
-    
+        --threads ${params.threads}
     """
 }
