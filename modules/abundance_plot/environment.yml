@@ -9,3 +9,4 @@ dependencies:
   - conda-forge::r-readr
   - conda-forge::r-ggplot2
   - conda-forge::r-svglite
+  - conda-forge::r-tidyr
